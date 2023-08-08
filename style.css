@@ -11,14 +11,15 @@ body {
 }
 #header3 {
     position: absolute;
-    top: 260px;
-    right: 449px;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-size: 25px;
     color:aliceblue;
     font-family:cursive;
 }
 #audio {
-    top: 690px;
+    top: 80%;
 }
 #button {
     text-align: center;
