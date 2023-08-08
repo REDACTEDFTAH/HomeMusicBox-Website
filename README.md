@@ -1,7 +1,7 @@
 # HomeMusicBox-Website
 
 Song: Home (Music Box Version) by Toby Fox <br>
-I do not own the songs. <br>
+I do not own the song. <br>
 
 Features: <br>
 
