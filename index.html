@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home (Music Box)</title>
+    <link rel="icon" href="social-logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <span id="button"><button onclick="toggle(this);" style="color:#ec9230; background-color:#a86d20; border-color:#a86d20; font-family: cursive;">Hide Audio</button></span>
+    <div id="header3">.Music Playing: Home (Music Box) by Toby Fox.</div>
+    <div id="audio" style="width:500px; margin:auto; position:relative;">
+        <audio controls autoplay loop style="width:100%;">
+           <source src="music/Undertale OST_ 013 - Home (Music Box).mp3">
+        </audio>
+    </div>
+        <script>
+            let toggle = button => {
+               let element = document.getElementById("audio");
+               let hidden = element.getAttribute("hidden");
+          
+               if (hidden) {
+                  element.removeAttribute("hidden");
+                  button.innerText = "Hide Audio";
+               } else {
+                  element.setAttribute("hidden", "hidden");
+                  button.innerText = "Show Audio";
+               }
+            }
+          </script>
+</body>
+</html>
